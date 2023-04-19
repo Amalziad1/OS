@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e9d8f2;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.inputFileController">
+   <children>
+      <Text layoutX="152.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter File name">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="msg" layoutX="186.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="228.90781249999986">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="name" layoutX="300.0" layoutY="175.0" />
+      <Button fx:id="next" layoutX="336.0" layoutY="304.0" mnemonicParsing="false" onAction="#next" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #6a0dad;" text="Next" textFill="WHITE" />
+      <Button fx:id="back" layoutX="194.0" layoutY="304.0" mnemonicParsing="false" onAction="#back" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #6a0dad;" text="Back" textFill="WHITE" />
+   </children>
+</Pane>
