@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="801.0" style="-fx-background-color: #e9d8f2;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.pausingController">
+   <children>
+      <Text layoutX="14.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Queue 1">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Queue 2">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2b2e5" height="39.0" layoutX="97.0" layoutY="25.0" stroke="BLACK" strokeType="INSIDE" width="693.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2b2e5" height="39.0" layoutX="97.0" layoutY="82.0" stroke="BLACK" strokeType="INSIDE" width="693.0" />
+      <Text fx:id="Q1" layoutX="103.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="681.5742797851562">
+         <font>
+            <Font name="Bodoni MT" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="Q2" layoutX="103.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="681.5742797851562">
+         <font>
+            <Font name="Bodoni MT" size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="365.0" layoutY="361.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="70.0" style="-fx-background-color: #6a0dad;" text="Back" textFill="WHITE" />
+      <Text layoutX="14.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Queue 3">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2b2e5" height="39.0" layoutX="96.0" layoutY="140.0" stroke="BLACK" strokeType="INSIDE" width="693.0" />
+      <Text fx:id="q3" layoutX="102.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="681.5742797851562">
+         <font>
+            <Font name="Bodoni MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Queue 4">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2b2e5" height="39.0" layoutX="96.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="693.0" />
+      <Text fx:id="q4" layoutX="101.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="681.5742797851562">
+         <font>
+            <Font name="Bodoni MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="4.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I/O Queue">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2b2e5" height="39.0" layoutX="96.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="693.0" />
+      <Text fx:id="q5" layoutX="101.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="681.5742797851562">
+         <font>
+            <Font name="Bodoni MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="59.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Running Process">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2b2e5" height="39.0" layoutX="275.0" layoutY="303.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+      <Text layoutX="451.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In Queue">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2b2e5" height="39.0" layoutX="538.0" layoutY="303.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+      <Label fx:id="cp" layoutX="282.0" layoutY="308.0" prefHeight="30.0" prefWidth="150.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="iq" layoutX="546.0" layoutY="308.0" prefHeight="30.0" prefWidth="150.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
